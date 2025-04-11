@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import { useRef, useEffect, useCallback, useState } from "react";
 import Webcam from "react-webcam";
-import { UseFaceDetect } from "./face-detection/use-face-detector";
 import { useFaceLandmarker } from "./face-detection/use-face-landmarker";
 import { DrawingUtils, FaceLandmarker } from "@mediapipe/tasks-vision";
 

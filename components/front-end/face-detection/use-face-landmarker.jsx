@@ -94,5 +94,5 @@ export function useFaceLandmarker(webcamRef, onDetections) {
     };
   }, []);
 
-  return null; // Можно вернуть resultRef.current позже, если нужно
+  return null;
 }
